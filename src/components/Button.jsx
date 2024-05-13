@@ -25,7 +25,6 @@ const Button = ({
   };
 
   const handleUpdate = () => {
-    console.log(editIndex);
 
     setTasks((prevTasks) => {
       const newTasks = [...prevTasks];
