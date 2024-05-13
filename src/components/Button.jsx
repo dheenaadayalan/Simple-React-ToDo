@@ -16,7 +16,7 @@ const Button = ({
         status: false,
       };
 
-      console.log(task);
+      
 
       setTasks((prevTasks) => [...prevTasks, task]);
       setTitle(" ");
